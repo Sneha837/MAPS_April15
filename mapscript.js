@@ -13,7 +13,7 @@ function initialize(){
         center:{lat:40.758904, lng: -73.985128}
     };
 
-    map1= new google.maps.Map(document.getElementById('map_canavas1'),mapOptions1);
-    map2= new google.maps.Map(document.getElementById('map_canavas2'),mapOptions2);
-    map3= new google.maps.Map(document.getElementById('map_canavas3'),mapOptions3);
+    map1= new google.maps.Map(document.getElementById("map_canavas1"),mapOptions1);
+    map2= new google.maps.Map(document.getElementById("map_canavas2"),mapOptions2);
+    map3= new google.maps.Map(document.getElementById("map_canavas3"),mapOptions3);
 }
